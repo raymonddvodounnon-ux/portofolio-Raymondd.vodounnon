@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | VODOUNNON Dossou Raymond - Expert IT & Tech</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Calendly Widget CSS -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .bg-gradient-tech {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+        }
+        
+        .text-accent {
+            color: #38bdf8;
+        }
+        
+        .bg-accent {
+            background-color: #0284c7;
+        }
+        
+        .bg-accent:hover {
+            background-color: #0369a1;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-900 text-slate-100 font-sans antialiased">
+
+    <!-- BARRE DE NAVIGATION -->
+    <nav class="fixed w-full z-50 bg-slate-900/90 backdrop-blur border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <span class="text-2xl font-bold tracking-wider text-white">RHT <span class="text-accent">TECH</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8 text-sm font-medium">
+                    <a href="#accueil" class="hover:text-accent transition-colors">Accueil</a>
+                    <a href="#a-propos" class="hover:text-accent transition-colors">À Propos</a>
+                    <a href="#competences" class="hover:text-accent transition-colors">Compétences</a>
+                    <a href="#services" class="hover:text-accent transition-colors">Services</a>
+                    <a href="#rdv" class="hover:text-accent transition-colors">Prendre RDV</a>
+                </div>
+                <div>
+                    <a href="mailto:raymondd.vodounnon@gmail.com" class="bg-accent text-white px-4 py-2 rounded-lg font-medium text-sm transition-all shadow-lg hover:shadow-cyan-500/20">
+                        <i class="fa-regular fa-paper-plane mr-2"></i>Me Contacter
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SECTION HERO (ACCUEIL) -->
+    <section id="accueil" class="pt-32 pb-20 md:pt-40 md:pb-28 bg-gradient-tech relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-12">
+            <div class="md:w-3/5 space-y-6">
+                <div class="inline-block px-3 py-1 bg-sky-500/10 border border-sky-500/20 rounded-full text-accent text-sm font-semibold">
+                    <i class="fa-solid fa-code-branch mr-2"></i>Disponible pour prestations & projets Freelance
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
+                    VODOUNNON Dossou Raymond
+                </h1>
+                <p class="text-xl text-slate-300 font-medium">
+                    Spécialiste Maintenance Informatique, Réseaux & Développeur Web
+                </p>
+                <p class="text-slate-400 max-w-2xl text-base">
+                    Fondateur de <strong class="text-white">Ray High TECH (RHT)</strong>. J'accompagne les entreprises et particuliers à Abomey-Calavi et Cotonou dans l'optimisation de leur infrastructure IT, la sécurisation de leurs réseaux et la création
+                    de solutions web sur-mesure.
+                </p>
+                <div class="flex flex-wrap gap-4 justify-center md:justify-start pt-4">
+                    <!-- BOUTON TÉLÉCHARGER CV -->
+                    <a href="CV_VODOUNNON_Raymond.pdf" download class="bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 px-6 py-3 rounded-xl font-semibold flex items-center gap-2 transition-all">
+                        <i class="fa-solid fa-download text-accent"></i> Télécharger mon CV
+                    </a>
+                    <!-- BOUTON PRISE DE RDV -->
+                    <a href="#rdv" class="bg-accent text-white px-6 py-3 rounded-xl font-semibold flex items-center gap-2 transition-all shadow-lg hover:shadow-sky-500/25">
+                        <i class="fa-regular fa-calendar-check"></i> Réserver un Créneau
+                    </a>
+                </div>
+            </div>
+            <!-- CARTE D'IDENTITÉ PRO -->
+            <div class="md:w-2/5 bg-slate-800/80 p-6 rounded-2xl border border-slate-700/60 backdrop-blur w-full max-w-md shadow-2xl">
+                <div class="space-y-4">
+                    <div class="flex items-center gap-4 border-b border-slate-700 pb-4">
+                        <div class="w-12 h-12 bg-sky-500/20 text-accent rounded-full flex items-center justify-center text-xl font-bold">
+                            DRV
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-white text-lg">Ray High TECH (RHT)</h3>
+                            <p class="text-xs text-slate-400"><i class="fa-solid fa-location-dot text-red-400 mr-1"></i>Abomey-Calavi, Quartier Sèmè (Bénin)</p>
+                        </div>
+                    </div>
+                    <div class="space-y-3 text-sm">
+                        <div class="flex items-center gap-3 text-slate-300">
+                            <i class="fa-solid fa-phone text-accent w-5"></i>
+                            <span>+229 01 90 22 65 14</span>
+                        </div>
+                        <div class="flex items-center gap-3 text-slate-300">
+                            <i class="fa-solid fa-envelope text-accent w-5"></i>
+                            <a href="mailto:raymondd.vodounnon@gmail.com" class="hover:underline">raymondd.vodounnon@gmail.com</a>
+                        </div>
+                        <div class="flex items-center gap-3 text-slate-300">
+                            <i class="fa-solid fa-graduation-cap text-accent w-5"></i>
+                            <span>Étudiant en Informatique (ISGG)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION COMPÉTENCES -->
+    <section id="competences" class="py-20 bg-slate-950">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-white">Domaines d'Expertise</h2>
+                <p class="text-slate-400 mt-2">Mes compétences techniques mises au service de vos projets</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- CARTE 1: MAINTENANCE & SYSTÈMES -->
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-sky-500/50 transition-all group">
+                    <div class="w-14 h-14 bg-sky-500/10 text-accent rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Maintenance & Systèmes</h3>
+                    <ul class="text-slate-400 text-sm space-y-2">
+                        <li><i class="fa-solid fa-check text-accent mr-2"></i>Diagnostic & Dépannage Hardware/Software</li>
+                        <li><i class="fa-solid fa-check text-accent mr-2"></i>Déploiement GLPI & OCS Inventory</li>
+                        <li><i class="fa-solid fa-check text-accent mr-2"></i>Installation Windows / Linux & Ventoy</li>
+                        <li><i class="fa-solid fa-check text-accent mr-2"></i>Plans de maintenance préventive</li>
+                    </ul>
+                </div>
+
+                <!-- CARTE 2: RÉSEAUX & SÉCURITÉ -->
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-sky-500/50 transition-all group">
+                    <div class="w-14 h-14 bg-emerald-500/10 text-emerald-400 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-network-wired"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Réseaux & Infrastructures</h3>
+                    <ul class="text-slate-400 text-sm space-y-2">
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-2"></i>Configuration VLANs & Routeurs (Mikrotik/PfSense)</li>
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-2"></i>Architecture Réseau Full Mesh / Local</li>
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-2"></i>Sécurisation & Sauvegardes automatisées</li>
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-2"></i>Partage de ressources et pare-feu</li>
+                    </ul>
+                </div>
+
+                <!-- CARTE 3: DEV WEB & GRAPHISME -->
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-sky-500/50 transition-all group">
+                    <div class="w-14 h-14 bg-purple-500/10 text-purple-400 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Développement Web & Design</h3>
+                    <ul class="text-slate-400 text-sm space-y-2">
+                        <li><i class="fa-solid fa-check text-purple-400 mr-2"></i>HTML5, CSS3, JavaScript, PHP & MySQL</li>
+                        <li><i class="fa-solid fa-check text-purple-400 mr-2"></i>C# & Logiciels de gestion</li>
+                        <li><i class="fa-solid fa-check text-purple-400 mr-2"></i>Design visuel (Illustrator, Photoshop, Canva)</li>
+                        <li><i class="fa-solid fa-check text-purple-400 mr-2"></i>Intégration d'outils automatisés (ManyChat, Tidio)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION PRISE DE RENDEZ-VOUS EN LIGNE (CALENDLY) -->
+    <section id="rdv" class="py-20 bg-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-accent text-sm font-semibold tracking-wider uppercase">Planification Simple & Rapide</span>
+                <h2 class="text-3xl font-bold text-white mt-2">Réservez une Consultation ou une Intervention</h2>
+                <p class="text-slate-400 mt-2 max-w-xl mx-auto">Choisissez directement le créneau qui vous convient pour discuter de votre besoin en maintenance, réseau ou développement web.</p>
+            </div>
+
+            <!-- INTEGRATION WIDGET CALENDLY -->
+            <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800 shadow-xl">
+                <!-- Remplacez 'votredomaine' par votre lien Calendly réel -->
+                <div class="calendly-inline-widget" data-url="https://calendly.com?hide_landing_page_details=1&hide_highlight_code=1" style="min-width:320px;height:650px;"></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIED DE PAGE (FOOTER) -->
+    <footer class="bg-slate-950 border-t border-slate-800 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
+            <div>
+                <p class="text-lg font-bold text-white">VODOUNNON Dossou Raymond (Ray High TECH)</p>
+                <p class="text-sm text-slate-500">Service de maintenance informatique, réseaux et solutions numériques au Bénin.</p>
+            </div>
+            <div class="flex gap-4">
+                <a href="mailto:raymondd.vodounnon@gmail.com" class="w-10 h-10 bg-slate-800 hover:bg-accent rounded-full flex items-center justify-center text-white transition-colors">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://wa.me/2290190226514" target="_blank" class="w-10 h-10 bg-slate-800 hover:bg-emerald-600 rounded-full flex items-center justify-center text-white transition-colors">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+        <div class="mt-8 text-center text-xs text-slate-600">
+            &copy; 2026 Ray High TECH (RHT). Tous droits réservés.
+        </div>
+    </footer>
+
+</body>
+
+</html>
